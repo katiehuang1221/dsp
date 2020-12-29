@@ -7,15 +7,26 @@ Use the Pmf class provided by thinkstats2.
 ```
 pmf = thinkstats2.Pmf(resp.numkdgg, label='numkdhh')
 ```
-Use thinkplot to plot the distribution:
-```
-thinkplot.Pmf(pmf)
-thinkplot.Config(xlabel='number of kids', ylabel='probability')
-```
-
-
 
 Now compute the biased distribution we would see if we surveyed the children and asked them how many children under 18 (including themselves) are in their household.
+```
+biased_pmf = pmf.Copy(label='biased')
+for x, p in pmf.Items():
+  biased_pmf.Mult(x,x)
+
+biased_pmf.Normalized()
+```
+
+
+Use thinkplot to plot the distribution:
+```
+thinkplot.Pmfs([pmf,biased_pmf])
+thinkplot.Show(xlabel='number of kids', ylabel='probability')
+```
+
+
+
+
 Plot the actual and biased distributions, and compute their means.
 
 >> REPLACE THIS TEXT WITH YOUR RESPONSE
