@@ -6,6 +6,12 @@ Select first babies and others using `birthord`.
 firsts = live[live.nirthord == 1]
 others = live[live.nirthord != 1]
 ```
+For a straightforward comparison, we find the mean weight of these two groups of babies:
+```
+firsts.totalwgt_lb.mean(), others.totalwgt_lb.mean()
+```
+(7.201094430437772, 7.325855614973262)
+It shows that the first babies on average are lighter than others.
 
 Use the function ```CohenEffectSize``` to compute Cohen's *d* for the variable ```totalwgt_lb```:
 ```
