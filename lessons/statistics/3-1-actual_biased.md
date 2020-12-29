@@ -25,14 +25,15 @@ thinkplot.Show(xlabel='number of kids', ylabel='probability')
 ```
 <img src="https://github.com/katiehuang1221/dsp/blob/master/img/Exercise3_1.png" width=500>
 
-The mean for actual distribution is:
+The mean for the actual distribution is:
 ```
 pmf.Mean()
 ```
-1.024205155043831
-```
 
-The mean for biased distribution is:
+1.024205155043831
+
+And the mean for the biased distribution is:
+
 ```
 biased_pmf.Mean()
 ```
