@@ -3,7 +3,7 @@ Use the NSFG respondent variable ```NUMKDHH``` to construct the actual distribut
 ```
 resp = nsfg.ReadFemResp()
 ```
->> Use the Pmf class provided by thinkstats2.
+Use the Pmf class provided by thinkstats2.
 ```
 pmf = thinkstats2.Pmf(resp.numkdgg, label='numkdhh')
 ```
@@ -25,7 +25,15 @@ thinkplot.Show(xlabel='number of kids', ylabel='probability')
 ```
 <img src="https://github.com/katiehuang1221/dsp/blob/master/img/Exercise3_1.png" width=500>
 
+The mean for actual distribution is:
+```
+pmf.Mean()
+```
+1.024205155043831
+```
 
-
-
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+The mean for biased distribution is:
+```
+biased_pmf.Mean()
+```
+2.403679100664282
