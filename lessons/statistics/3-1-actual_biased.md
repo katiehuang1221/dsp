@@ -25,7 +25,7 @@ thinkplot.Show(xlabel='number of kids', ylabel='probability')
 ```
 ![Plot actual vs biased] (https://github.com/katiehuang1221/dsp/blob/master/img/Exercise3_1.png)
 (ThinkStats2/img/Exercise3_1.png)
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Image of Yaktocat](https://github.com/katiehuang1221/dsp/blob/master/img/Exercise3_1.png)
 
 
 Plot the actual and biased distributions, and compute their means.
