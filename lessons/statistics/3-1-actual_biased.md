@@ -23,7 +23,8 @@ Use thinkplot to plot the distribution:
 thinkplot.Pmfs([pmf,biased_pmf])
 thinkplot.Show(xlabel='number of kids', ylabel='probability')
 ```
-
+![Plot actual vs biased]
+(ThinkStats2/img/Exercise3_1.png)
 
 
 
