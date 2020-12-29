@@ -7,7 +7,10 @@ firsts = live[live.nirthord == 1]
 others = live[live.nirthord != 1]
 ```
 
-Use the function ```CohenEffectSize``` to compute Cohen's *d*:
+Use the function ```CohenEffectSize``` to compute Cohen's *d* for the variable ```totalwgt_lb```:
 ```
 CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb)
 ```
+-0.088672927072602
+
+For pregnancy length (```prglngth```), the Cohen's effect size for first babies and others is 0.028879044654449883.
