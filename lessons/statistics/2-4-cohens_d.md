@@ -21,4 +21,6 @@ CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb)
 ```
 -0.088672927072602
 
+Even though the mean weight of first babies are heavier, we find that the effect size is rather small. It means that the difference in mean may not be significant.  
+
 For pregnancy length (```prglngth```), the Cohen's effect size for first babies and others is 0.028879044654449883.
