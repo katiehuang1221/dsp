@@ -88,6 +88,7 @@ log_sample = InterpolateSample(income_df, log_upper=7.0)
 sample = np.power(10, log_sample)
 ```
 Then the CDF plot looks like this:
+
 <img src = "https://github.com/katiehuang1221/dsp/blob/master/img/Exercise6_1_3.png" width =500>
 
 And the statistics are:
