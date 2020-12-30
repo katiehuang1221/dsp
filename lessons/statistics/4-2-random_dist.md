@@ -21,4 +21,4 @@ cdf = thinkstats2.Cdf(numbers)
 thinkplot.Cdf(cdf)
 thinkplot.Config(xlabel='number',ylabel='CDF')
 ```
-<img src = https://github.com/katiehuang1221/dsp/blob/master/img/Exercise4_2_2.png" width=500>
+<img src = "https://github.com/katiehuang1221/dsp/blob/master/img/Exercise4_2_2.png" width=500>
