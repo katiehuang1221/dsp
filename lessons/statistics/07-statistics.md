@@ -93,9 +93,8 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> **Frequentist:** probabilities are fundamentally related to frequencies of events.
-
->> **Bayesian:** probabilities are fundamentally related to our own knowledge about an event.
+>> **Frequentist:** probabilities are fundamentally related to frequencies of events.  
+**Bayesian:** probabilities are fundamentally related to our own knowledge about an event.
 
 ---
 
