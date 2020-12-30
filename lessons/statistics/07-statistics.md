@@ -95,7 +95,7 @@ How do frequentist and Bayesian statistics compare?
 
 >> **Frequentist:** probabilities are fundamentally related to frequencies of events.
 
-**Bayesian:** probabilities are fundamentally related to our own knowledge about an event.
+>> **Bayesian:** probabilities are fundamentally related to our own knowledge about an event.
 
 ---
 
