@@ -24,4 +24,5 @@ Use ```.cdf``` to find how many percents of people are between 177.8 and 185.4cm
 dist.cdf(185.4)- dist.cdf(177.8)
 ```
 0.3420946829459531
+
 So it's about 34%.
