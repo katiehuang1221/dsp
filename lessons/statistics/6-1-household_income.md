@@ -59,6 +59,7 @@ thinkplot.Cdf(log_cdf)
 thinkplot.Config(xlabel='Household income (log $)',
                ylabel='CDF')
 ```
+<img src = "https://github.com/katiehuang1221/dsp/blob/master/img/Exercise6_1_1.png" width =100>
 
 
 Convert the log sample back with unit of ($):
@@ -72,6 +73,7 @@ thinkplot.Cdf(cdf)
 thinkplot.Config(xlabel='Household income ($)',
                ylabel='CDF')
 ```
+<img src = "https://github.com/katiehuang1221/dsp/blob/master/img/Exercise6_1_2.png" width =100>
 
 Compute the median, mean, skewness and Pearson’s skewness of the resulting sample.
 ```
@@ -86,6 +88,7 @@ log_sample = InterpolateSample(income_df, log_upper=7.0)
 sample = np.power(10, log_sample)
 ```
 Then the CDF plot looks like this:
+<img src = "https://github.com/katiehuang1221/dsp/blob/master/img/Exercise6_1_3.png" width =100>
 
 And the statistics are:
 ```
