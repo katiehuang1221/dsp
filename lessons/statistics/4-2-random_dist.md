@@ -13,3 +13,4 @@ pmf = thinkstats2.Pmf(numbers)
 thinkplot.Pmf(pmf)
 thinkplot.Config(xlabel='number',ylabel='PMF')
 ```
+<img src = "https://github.com/katiehuang1221/dsp/blob/master/img/Exercise4_2_1.png" width=500>
