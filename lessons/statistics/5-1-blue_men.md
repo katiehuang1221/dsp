@@ -19,7 +19,7 @@ Convert 5'10" and 6'1" into cm:
 # 6'1" = 185.4cm
 ```
 
-Use ```.cdf``` to find how many percents of people are between 177.8 and 185.4cm:
+Use ```.cdf``` to find how many percents of male are between 177.8 and 185.4cm:
 ```
 dist.cdf(185.4)- dist.cdf(177.8)
 ```
