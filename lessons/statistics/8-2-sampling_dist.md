@@ -45,31 +45,31 @@ ExponentialExp(n=1000)
 
 Plot standard error versus ```n```:
 ```
-def ExponentialExp(n=10,m=1000):
+def ExponentialStderrr(n=1000,m=1000):
     lam = 2
-
+    
     estimates=[]
     for _ in range(m):
         xs = np.random.exponential(1.0/lam, n)
         L = 1 / np.mean(xs)
         estimates.append(L)
-
+    
     cdf = thinkstats2.Cdf(estimates)
     ci = cdf.Percentile(5), cdf.Percentile(95)
     stderr = RMSE(estimates, lam)
-
+    
     return stderr
 
 def PlotStderr_n():
     stderr_list = []
     n_list = [n for n in range(10,1000,10)]
     for n in n_list:
-        stderr_list.append(ExponentialExp(n))
-
+        stderr_list.append(ExponentialStderrr(n))
+    
     thinkplot.Plot(n_list,stderr_list)
     thinkplot.Config(xlabel='n',
                  ylabel='Standard Error')
-
+    
 PlotStderr_n()
 ```
 
@@ -78,4 +78,4 @@ PlotStderr_n()
 **Observation**
 For n=10, the 90% confidence interval is [1.27, 3.5].
 For n=1000, the 90% confidence interval is [1.9, 2.1].
-The confidence interval becomes narrower but still include the actual lambda.
+The confidence interval becomes narrower but still includes the actual lambda.
