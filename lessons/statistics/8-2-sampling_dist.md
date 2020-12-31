@@ -29,7 +29,7 @@ def ExponentialExp(n=10,m=1000):
 
 ExponentialExp()
 ```
-90% CI (1.2754324410594688, 3.5001285038798318)
+90% CI (1.2754324410594688, 3.5001285038798318)  
 standard error 0.7829818037243479
 
 <img src="https://github.com/katiehuang1221/dsp/blob/master/img/Exercise8_2_1.png" width=500>
