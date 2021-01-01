@@ -36,8 +36,8 @@ def SimulateGames(m=1000,lam=2):
 
 SimulateGames(m=1000)
 ```
-mean error: 0.001071
-RMSE: 1.414905297184232
+mean error: 0.016
+RMSE: 1.4656056768449008
 
 Is this way of making an estimate biased?
 ```
