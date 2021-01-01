@@ -85,6 +85,7 @@ PlotSimulateGames(m=100000,lam=5)
 ```
 90% CI: (2, 9)
 standard error 2.2256549597815023
+
 <img src="https://github.com/katiehuang1221/dsp/blob/master/img/Exercise8_3_2.png" width=500>
 
 The sampling error increases as the values of lam increases.
