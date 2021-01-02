@@ -1,6 +1,6 @@
 [Think Stats Chapter 7 Exercise 1](http://greenteapress.com/thinkstats2/html/thinkstats2008.html#toc70) (weight vs. age)
 Using data from the NSFG, make a scatter plot of birth weight versus mother’s age.
-```
+```python
 from matplotlib import pyplot as plt
 plt.scatter(x='agepreg',y='totalwgt_lb',data=live, s=1)
 plt.xlabel('Age of mother (years)')
@@ -11,7 +11,7 @@ plt.ylabel('Birth weight (lb)')
 Plot percentiles of birth weight versus mother’s age.
 
 Compute Pearson’s correlation:
-```
+```python
 # Pearson’s correlation
 
 def Pearson(xs,ys):
@@ -31,7 +31,7 @@ Pearson(live.agepreg,live.totalwgt_lb)
 
 
 Compute Spearman’s correlation:
-```
+```python
 # Spearman’s correlation
 
 def Spearman(xs, ys):
