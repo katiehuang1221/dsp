@@ -4,7 +4,7 @@ Simulate this experiment 1000 times and plot the sampling distribution of the es
 Compute the standard error of the estimate and the 90% confidence interval.
 
 **Code**
-```
+```python
 def ExponentialExp(n=10,m=1000):
     lam = 2
 
@@ -38,13 +38,13 @@ Repeat the experiment with a few different values of ```n```
 and make a plot of standard error versus ```n```.
 
 Try ```n=1000```:
-```
+```python
 ExponentialExp(n=1000)
 ```
 <img src="https://github.com/katiehuang1221/dsp/blob/master/img/Exercise8_2_2.png" width=500>
 
 Plot standard error versus ```n```:
-```
+```python
 def ExponentialStderrr(n=1000,m=1000):
     lam = 2
     
